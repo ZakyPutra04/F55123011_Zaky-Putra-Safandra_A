@@ -1,0 +1,96 @@
+/* Mengatur tampilan keseluruhan halaman */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mengatur tampilan header */
+header {
+    display: flex; /* Menggunakan flexbox untuk menyusun elemen di header */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    background: #333; /* Warna latar belakang */
+    color: #fff;      /* Warna teks */
+    padding: 10px 20px; /* Padding atas dan bawah serta kiri dan kanan */
+}
+
+
+/* Mengatur tampilan logo */
+#logo {
+    height: 100px; /* Mengatur tinggi logo */
+    margin-right: 40px; /* Memberikan jarak antara logo dan navigasi */
+}
+
+/* Mengatur tampilan daftar navigasi */
+nav ul {
+    list-style: none; /* Menghilangkan bullet pada daftar */
+    padding: 0;      /* Menghapus padding default */
+    margin: 0;       /* Menghapus margin default */
+}
+
+/* Mengatur tampilan item daftar navigasi */
+nav ul li {
+    display: block; /* Menampilkan item secara horizontal */
+    margin: 0 15px; /* Margin kiri dan kanan */
+}
+
+/* Mengatur tampilan tautan di navigasi */
+nav ul li a {
+    color: #fff;          /* Warna teks tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+/* Mengatur tampilan bagian utama */
+main {
+    padding: 20px; /* Padding untuk bagian utama */
+}
+
+/* Mengatur tampilan section */
+section {
+    margin-bottom: 20px; /* Margin bawah untuk setiap section */
+}
+
+/* Mengatur tampilan galeri gambar */
+.gallery {
+    display: flex; /* Menggunakan flexbox untuk galeri */
+    gap: 10px;     /* Jarak antar gambar */
+}
+
+/* Mengatur tampilan gambar dalam galeri */
+.gallery img {
+    max-width: 100%; /* Gambar responsif */
+    height: auto;    /* Mempertahankan rasio aspek gambar */
+    border: 2px solid #ccc; /* Batas gambar */
+    width: 150px;
+}
+
+/* Mengatur tampilan footer */
+footer {
+    background: #f4f4f4; /* Warna latar belakang footer */
+    padding: 10px 0;     /* Padding atas dan bawah */
+    text-align: center;   /* Meratakan teks ke tengah */
+}
+
+/* Mengatur tampilan judul di footer */
+footer h3 {
+    margin: 0; /* Menghapus margin */
+}
+
+/* Mengatur tampilan daftar di footer */
+footer ul {
+    list-style: none; /* Menghilangkan bullet pada daftar */
+    padding: 0;      /* Menghapus padding default */
+}
+
+/* Mengatur tampilan item daftar di footer */
+footer ul li {
+    display: inline; /* Menampilkan item secara horizontal */
+    margin: 0 10px; /* Margin kiri dan kanan */
+}
+
+/* Mengatur tampilan tautan di footer */
+footer a {
+    text-decoration: none; /* Menghapus garis bawah */
+    color: #333;          /* Warna teks tautan */
+}
